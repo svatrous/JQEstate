@@ -44,7 +44,7 @@
 
 - (void) setItem: (EDItem *) item {
     
-    [self.previewImageView setImageWithURL:[NSURL URLWithString:[item.images firstObject][@"url"]]];
+    [self.previewImageView setImageWithURL:[NSURL URLWithString:[[item.images firstObject][@"url"] stringByAppendingString:@"-128"]]];
     
     [self.hightwayNameLabel setText:item.location[@"routeName"]];
     
