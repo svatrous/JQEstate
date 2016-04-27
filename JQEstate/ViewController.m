@@ -7,21 +7,48 @@
 //
 
 #import "ViewController.h"
+#import "EDController.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) EDController *controller;
 
 @end
 
 @implementation ViewController
 
+- (instancetype) initWithCoder:(NSCoder *)aDecoder {
+    
+    self = [super initWithCoder:aDecoder];
+    
+    if (self) {
+        
+        self.controller = [[EDController alloc] init];
+        
+    }
+    
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.controller.view = self;
+    
+    [self.tableView setDataSource:self.controller];
+    
+    [self.tableView setDelegate:self.controller];
+    
+    [self.controller updateItems];
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) reloadTableView {
+    
+    [self.tableView reloadData];
+    
 }
+
 
 @end

@@ -13,9 +13,19 @@
 		6E4E5E551CCFFDA500876F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4E5E531CCFFDA500876F1E /* Main.storyboard */; };
 		6E4E5E571CCFFDA500876F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4E5E561CCFFDA500876F1E /* Assets.xcassets */; };
 		6E4E5E5A1CCFFDA500876F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4E5E581CCFFDA500876F1E /* LaunchScreen.storyboard */; };
+		6E4E5E661CCFFEA300876F1E /* EDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4E5E651CCFFEA300876F1E /* EDController.m */; };
+		6E4E5E6A1CCFFEC300876F1E /* EDMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4E5E691CCFFEC300876F1E /* EDMainTableViewCell.m */; };
+		6E4E5E6E1CD0007000876F1E /* EDItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4E5E6D1CD0007000876F1E /* EDItem.m */; };
+		6E4E5E721CD001ED00876F1E /* EDServerApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4E5E711CD001ED00876F1E /* EDServerApiManager.m */; };
+		6E4E5E761CD0025700876F1E /* EDJQEstateApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4E5E751CD0025700876F1E /* EDJQEstateApi.m */; };
+		6E4E5E7A1CD09BD400876F1E /* EDNotificationKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4E5E791CD09BD400876F1E /* EDNotificationKeys.m */; };
+		8BFAD60CD14A038AFB0E877A /* libPods-JQEstate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6B7C720CA1B5AFDAC9E795 /* libPods-JQEstate.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12BC5097C4CCF5DDC7F8680C /* Pods-JQEstate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQEstate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQEstate/Pods-JQEstate.debug.xcconfig"; sourceTree = "<group>"; };
+		3F6B7C720CA1B5AFDAC9E795 /* libPods-JQEstate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQEstate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F39264CB25A7336F07932CD /* Pods-JQEstate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQEstate.release.xcconfig"; path = "Pods/Target Support Files/Pods-JQEstate/Pods-JQEstate.release.xcconfig"; sourceTree = "<group>"; };
 		6E4E5E471CCFFDA500876F1E /* JQEstate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQEstate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4E5E4B1CCFFDA500876F1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E4E5E4D1CCFFDA500876F1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,18 @@
 		6E4E5E561CCFFDA500876F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E4E5E591CCFFDA500876F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E4E5E5B1CCFFDA500876F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4E5E641CCFFEA300876F1E /* EDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDController.h; sourceTree = "<group>"; };
+		6E4E5E651CCFFEA300876F1E /* EDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDController.m; sourceTree = "<group>"; };
+		6E4E5E681CCFFEC300876F1E /* EDMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDMainTableViewCell.h; sourceTree = "<group>"; };
+		6E4E5E691CCFFEC300876F1E /* EDMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDMainTableViewCell.m; sourceTree = "<group>"; };
+		6E4E5E6C1CD0007000876F1E /* EDItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDItem.h; sourceTree = "<group>"; };
+		6E4E5E6D1CD0007000876F1E /* EDItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDItem.m; sourceTree = "<group>"; };
+		6E4E5E701CD001ED00876F1E /* EDServerApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDServerApiManager.h; sourceTree = "<group>"; };
+		6E4E5E711CD001ED00876F1E /* EDServerApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDServerApiManager.m; sourceTree = "<group>"; };
+		6E4E5E741CD0025700876F1E /* EDJQEstateApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDJQEstateApi.h; sourceTree = "<group>"; };
+		6E4E5E751CD0025700876F1E /* EDJQEstateApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDJQEstateApi.m; sourceTree = "<group>"; };
+		6E4E5E781CD09BD400876F1E /* EDNotificationKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDNotificationKeys.h; sourceTree = "<group>"; };
+		6E4E5E791CD09BD400876F1E /* EDNotificationKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDNotificationKeys.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFAD60CD14A038AFB0E877A /* libPods-JQEstate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11F50E68B61CB3A2E585FC1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B7C720CA1B5AFDAC9E795 /* libPods-JQEstate.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E4E5E3E1CCFFDA500876F1E = {
 			isa = PBXGroup;
 			children = (
 				6E4E5E491CCFFDA500876F1E /* JQEstate */,
 				6E4E5E481CCFFDA500876F1E /* Products */,
+				952BBEFF67333D9188213DC9 /* Pods */,
+				11F50E68B61CB3A2E585FC1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +91,14 @@
 		6E4E5E491CCFFDA500876F1E /* JQEstate */ = {
 			isa = PBXGroup;
 			children = (
-				6E4E5E4D1CCFFDA500876F1E /* AppDelegate.h */,
-				6E4E5E4E1CCFFDA500876F1E /* AppDelegate.m */,
-				6E4E5E501CCFFDA500876F1E /* ViewController.h */,
-				6E4E5E511CCFFDA500876F1E /* ViewController.m */,
+				6E4E5E771CD09BBC00876F1E /* Notification Keys */,
+				6E4E5E731CD0023D00876F1E /* EDJQEstateAPI */,
+				6E4E5E6F1CD001CF00876F1E /* EDServerAPIManager */,
+				6E4E5E6B1CD0002D00876F1E /* Entity */,
+				6E4E5E671CCFFEAD00876F1E /* Cell */,
+				6E4E5E631CCFFE8800876F1E /* Controller */,
+				6E4E5E611CCFFE7900876F1E /* AppDelegate */,
+				6E4E5E621CCFFE8300876F1E /* ViewController */,
 				6E4E5E531CCFFDA500876F1E /* Main.storyboard */,
 				6E4E5E561CCFFDA500876F1E /* Assets.xcassets */,
 				6E4E5E581CCFFDA500876F1E /* LaunchScreen.storyboard */,
@@ -79,6 +116,87 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6E4E5E611CCFFE7900876F1E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6E4E5E4D1CCFFDA500876F1E /* AppDelegate.h */,
+				6E4E5E4E1CCFFDA500876F1E /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6E4E5E621CCFFE8300876F1E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6E4E5E501CCFFDA500876F1E /* ViewController.h */,
+				6E4E5E511CCFFDA500876F1E /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		6E4E5E631CCFFE8800876F1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E4E5E641CCFFEA300876F1E /* EDController.h */,
+				6E4E5E651CCFFEA300876F1E /* EDController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6E4E5E671CCFFEAD00876F1E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6E4E5E681CCFFEC300876F1E /* EDMainTableViewCell.h */,
+				6E4E5E691CCFFEC300876F1E /* EDMainTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		6E4E5E6B1CD0002D00876F1E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				6E4E5E6C1CD0007000876F1E /* EDItem.h */,
+				6E4E5E6D1CD0007000876F1E /* EDItem.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		6E4E5E6F1CD001CF00876F1E /* EDServerAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				6E4E5E701CD001ED00876F1E /* EDServerApiManager.h */,
+				6E4E5E711CD001ED00876F1E /* EDServerApiManager.m */,
+			);
+			name = EDServerAPIManager;
+			sourceTree = "<group>";
+		};
+		6E4E5E731CD0023D00876F1E /* EDJQEstateAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6E4E5E741CD0025700876F1E /* EDJQEstateApi.h */,
+				6E4E5E751CD0025700876F1E /* EDJQEstateApi.m */,
+			);
+			name = EDJQEstateAPI;
+			sourceTree = "<group>";
+		};
+		6E4E5E771CD09BBC00876F1E /* Notification Keys */ = {
+			isa = PBXGroup;
+			children = (
+				6E4E5E781CD09BD400876F1E /* EDNotificationKeys.h */,
+				6E4E5E791CD09BD400876F1E /* EDNotificationKeys.m */,
+			);
+			name = "Notification Keys";
+			sourceTree = "<group>";
+		};
+		952BBEFF67333D9188213DC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12BC5097C4CCF5DDC7F8680C /* Pods-JQEstate.debug.xcconfig */,
+				5F39264CB25A7336F07932CD /* Pods-JQEstate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E4E5E5E1CCFFDA500876F1E /* Build configuration list for PBXNativeTarget "JQEstate" */;
 			buildPhases = (
+				8862E10A8EF08A870E3CAEC2 /* Check Pods Manifest.lock */,
 				6E4E5E431CCFFDA500876F1E /* Sources */,
 				6E4E5E441CCFFDA500876F1E /* Frameworks */,
 				6E4E5E451CCFFDA500876F1E /* Resources */,
+				E93751FF747D28932C301233 /* Embed Pods Frameworks */,
+				B9BA9F1060C1A04B41F4D1E9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +231,7 @@
 				TargetAttributes = {
 					6E4E5E461CCFFDA500876F1E = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BDEECFJM89;
 					};
 				};
 			};
@@ -144,14 +266,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8862E10A8EF08A870E3CAEC2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9BA9F1060C1A04B41F4D1E9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQEstate/Pods-JQEstate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E93751FF747D28932C301233 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQEstate/Pods-JQEstate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E4E5E431CCFFDA500876F1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E4E5E721CD001ED00876F1E /* EDServerApiManager.m in Sources */,
 				6E4E5E521CCFFDA500876F1E /* ViewController.m in Sources */,
 				6E4E5E4F1CCFFDA500876F1E /* AppDelegate.m in Sources */,
+				6E4E5E661CCFFEA300876F1E /* EDController.m in Sources */,
+				6E4E5E6E1CD0007000876F1E /* EDItem.m in Sources */,
 				6E4E5E4C1CCFFDA500876F1E /* main.m in Sources */,
+				6E4E5E7A1CD09BD400876F1E /* EDNotificationKeys.m in Sources */,
+				6E4E5E761CD0025700876F1E /* EDJQEstateApi.m in Sources */,
+				6E4E5E6A1CCFFEC300876F1E /* EDMainTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +435,12 @@
 		};
 		6E4E5E5F1CCFFDA500876F1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12BC5097C4CCF5DDC7F8680C /* Pods-JQEstate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JQEstate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = E.D.JQEstate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +449,12 @@
 		};
 		6E4E5E601CCFFDA500876F1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F39264CB25A7336F07932CD /* Pods-JQEstate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JQEstate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = E.D.JQEstate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +480,7 @@
 				6E4E5E601CCFFDA500876F1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
